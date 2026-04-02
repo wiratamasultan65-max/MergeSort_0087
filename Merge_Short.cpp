@@ -96,3 +96,10 @@ void output()
     }
     cout << endl;
 }
+// fungsi utama
+int main()
+{
+    input();
+    mergeSort(0, n - 1);
+    output();
+}
