@@ -32,3 +32,10 @@ void input()
         cin >> arr[i];
     }
 }
+//membuat fungsi untuk mengurutkan array dengan metode merge short
+void void mergeSort(int low, int high)
+{
+    if (low >= high) // step 1
+    {
+        return; // step 1.a
+    }
